@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ShoppingMall.iml" filepath="$PROJECT_DIR$/.idea/modules/ShoppingMall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ShoppingMall_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ShoppingMall_main.iml" group="ShoppingMall" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ShoppingMall_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ShoppingMall_test.iml" group="ShoppingMall" />
+    </modules>
+  </component>
+</project>
