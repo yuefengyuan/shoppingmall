@@ -13,11 +13,11 @@ import java.util.List;
 @Controller
 public class GreetingController {
 
-	private Logger logger = LoggerFactory.getLogger(GreetingController.class);
+	//private Logger logger = LoggerFactory.getLogger(GreetingController.class);
 
-	@RequestMapping("/")
-	public String index(ModelMap model) {
-		model.addAttribute("name", "Dear");
+	@GetMapping("/")
+	public String index(Model model) {
+		model.addAttribute("name", "Dear1");
 
 		return "greeting";
 	}
