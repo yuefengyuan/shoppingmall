@@ -1,4 +1,4 @@
-package com.learn;
+package com.fege.learn;
 
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.web.bind.annotation.RequestMapping;

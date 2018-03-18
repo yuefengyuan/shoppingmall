@@ -1,4 +1,4 @@
-package com.user;
+package com.fege.user;
 
 public class UserController {
 }

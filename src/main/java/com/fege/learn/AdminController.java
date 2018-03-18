@@ -1,4 +1,4 @@
-package com.learn;
+package com.fege.learn;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
