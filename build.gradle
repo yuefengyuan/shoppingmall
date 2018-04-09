@@ -7,11 +7,15 @@ buildscript{
     }
 
     dependencies {
-        //classpath("org.springframework.boot:spring-boot-gradle-plugin:1.5.10.RELEASE")
-
-        classpath("org.springframework.boot:spring-boot-gradle-plugin:2.0.0.RELEASE")
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.5.10.RELEASE")
+        //classpath("org.springframework.boot:spring-boot-gradle-plugin:2.0.0.RELEASE")
     }
 }
+
+//plugins {
+//    id 'org.springframework.boot' version '1.5.10.RELEASE'
+//    id 'java'
+//}
 
 apply plugin: 'java'
 apply plugin: 'idea'
@@ -24,14 +28,10 @@ jar {
 }
 
 repositories {
-    //mavenCentral()
     jcenter()
-    maven { url 'http://repo.spri;ng.io/snapshot' }
-    maven { url 'http://repo.spring.io/milestone' }
+    maven { url "http://repo.spring.io/snapshot" }
+    maven { url "http://repo.spring.io/milestone" }
 }
-
-//group 'Mall'
-//version '1.0.0'
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
@@ -40,16 +40,16 @@ dependencies {
 
     compile("org.springframework.boot:spring-boot-starter-web")
     compile("org.springframework.boot:spring-boot-starter-thymeleaf")
-    compile("org.mybatis.spring.boot:mybatis-spring-boot-starter:1.3.1")
-    runtime("mysql:mysql-connector-java:6.0.6")
+    //compile("org.mybatis.spring.boot:mybatis-spring-boot-starter:1.3.1")
+    //runtime("mysql:mysql-connector-java:6.0.6")
     compile("org.springframework.boot:spring-boot-starter-data-jpa")
-    compile("com.alibaba:druid:1.1.9")
+    //compile("com.alibaba:druid:1.1.9")
     //compile("org.springframework.boot:spring-boot-starter-actuator")
     //compile("org.springframework.boot:spring-boot-starter-data-redis")
     //compile("org.springframework.boot:spring-boot-starter-activemq")
     //compile("org.springframework.boot:spring-boot-starter-security")
     //compile("org.springframework.boot:spring-boot-starter-aop")
-    compile("org.springframework.boot:spring-boot-starter-log4j")
+    //compile("org.springframework.boot:spring-boot-starter-log4j")
 
     testCompile("org.springframework.boot:spring-boot-starter-test")
     testCompile("junit:junit")

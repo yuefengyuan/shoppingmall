@@ -1,15 +1,15 @@
 #开发配置
-spring:
-  profiles: dev
+#spring:
+#  profiles: dev
 
-  mybatis:
-  typeAliasesPackage: com.ege.domain.entity
-  mapperLocations: classpath:mapper/*.xml
+#  mybatis:
+#  typeAliasesPackage: com.ege.domain.entity
+#  mapperLocations: classpath:mapper/*.xml
 
-  datasource:
-    url: jdbc:mysql://localhost:3306/shoppingmall
-    username: root
-    password: admin
-    driver-class-name: com.mysql.jdbc.Driver
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/shoppingmall
+#    username: root
+#    password: admin
+#    driver-class-name: com.mysql.jdbc.Driver
     # 使用druid数据源
-    type: com.alibaba.druid.pool.DruidDataSource
+#    type: com.alibaba.druid.pool.DruidDataSource
